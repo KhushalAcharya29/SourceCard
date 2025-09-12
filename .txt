@@ -1,0 +1,20 @@
+src/
+ ├── components/
+ │     ├── InputForm.jsx          # Form for user to enter handles
+ │     ├── Card.jsx               # Decides which card to render
+ │     ├── PlatformCards/
+ │     │     ├── GithubCard.jsx
+ │     │     ├── LinkedInCard.jsx
+ │     │     ├── LeetCodeCard.jsx
+ │     │     └── HackerRankCard.jsx
+ │
+ ├── pages/
+ │     ├── Home.jsx               # Main page (Form + Card)
+ │     └── About.jsx              # (Optional: info page)
+ │
+ ├── utils/
+ │     ├── githubAPI.js           # Fetch GitHub data
+ │     ├── LeetCodeAPI.js    # Fetch SO data
+ │
+ ├── App.js
+ ├── index.js
