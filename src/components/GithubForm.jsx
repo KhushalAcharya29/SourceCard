@@ -47,7 +47,7 @@ export default function GitHubCardPage() {
         />
         <button
           onClick={handleGenerate}
-          className="w-full sm:w-auto px-4 py-2 bg-black text-white rounded-lg text-sm sm:text-base font-semibold hover:bg-indigo-700 transition"
+          className="w-full sm:w-auto px-4 py-2 bg-black text-white rounded-lg text-sm sm:text-base font-semibold hover:bg-gray-500  transition"
         >
           Generate Card
         </button>
